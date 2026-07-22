@@ -105,8 +105,9 @@ int main()
 
   while (continuation == 1)
   { 
-      int location_number, action_number, ending_number, bet_amount, dice_1, dice_2, player_amount, opponents_total;
+      int location_number, action_number, bet_amount, dice_1, dice_2, player_amount, opponents_total;
       int money = 5;
+      int ending_number = 0;
       int stolen_money = 0;
       int number_of_koushi_games = 0;
       bool game_replay = true;
